@@ -55,7 +55,9 @@ button {
 }
 .successContainer {
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    gap: 10rem;
+    justify-content: flex-end;
     margin: 1rem;
 }
