@@ -12,9 +12,7 @@ body {
     width: 100%;
     font-family: "Roboto", sans-serif;
 }
-.imageContainer {
-    width: 100%;
-}
+
 h1 {
     margin: 1rem;
     font-size: 2.5rem;
@@ -60,4 +58,39 @@ button {
     gap: 10rem;
     justify-content: flex-end;
     margin: 1rem;
+}
+@media(min-width: 1280px ){
+    section {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1rem 1rem;
+    }
+    .mainContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .textContainer {
+        width: 25rem;
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .successContainer {
+        width: 30rem;
+        height: 27rem;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 2rem 2rem 3rem;
+        border: 1px solid black;
+    }
 }
