@@ -59,6 +59,45 @@ button {
     justify-content: flex-end;
     margin: 1rem;
 }
+@media ( min-width: 768px ){
+    section {
+        height: 100vh;
+        font-size: 1.5rem;
+    }
+    .textContainer h1 {
+        font-size: 3.5rem;
+    }
+    .textContainer p{
+        font-size: 1.5rem;
+    }
+    .imgageContainer {
+        width: 100%;
+    }
+    .imageContainer img{
+        width: 100%;
+    }
+    form {
+        margin-top: 2rem;
+    }
+    input {
+        height: 3rem;
+        margin: 0.5rem 0 1.5rem;
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1.5rem;
+    }
+    .successContainer {
+        gap: 26rem;
+    }
+    .subContainer h1{
+        font-size: 3rem;
+    }
+    .subContainer p {
+        font-size: 1.5rem;
+    }
+
+}
 @media(min-width: 1280px ){
     section {
         display: flex;
