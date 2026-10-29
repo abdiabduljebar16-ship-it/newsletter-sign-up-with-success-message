@@ -59,6 +59,15 @@ button {
     justify-content: flex-end;
     margin: 1rem;
 }
+article {
+    display: none;
+}
+.visible {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
 @media ( min-width: 768px ){
     section {
         height: 100vh;
@@ -125,11 +134,12 @@ button {
         font-size: 1rem;
     }
     article {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 100vh;
+        background-color: hsl(234, 29%, 20%);
     }
     .successContainer {
         width: 40rem;
@@ -153,8 +163,5 @@ button {
     }
      button {
         font-size: 1rem;
-    }
-    article {
-        background-color: hsl(234, 29%, 20%);
     }
 }
