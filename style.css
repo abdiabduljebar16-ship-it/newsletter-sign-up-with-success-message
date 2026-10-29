@@ -116,6 +116,7 @@ button {
         gap: 2rem;
         background-color: white;
         padding: 1rem;
+        border-radius: 2rem;
     }
     .textContainer {
         width: 25rem;
@@ -131,7 +132,7 @@ button {
         height: 100vh;
     }
     .successContainer {
-        width: 30rem;
+        width: 40rem;
         height: 30rem;
         justify-content: center;
         gap: 0rem;
@@ -139,6 +140,11 @@ button {
         padding: 0rem 2rem;
         border: 1px solid black;
         border-radius: 2rem;
+        background-color: white;
+        font-size: 12px;
+    }
+    .subContainer h1 {
+        font-size: 4rem;
     }
       input {
         height: 3rem;
@@ -150,9 +156,5 @@ button {
     }
     article {
         background-color: hsl(234, 29%, 20%);
-    }
-    .successContainer {
-        background-color: white;
-        font-size: 1rem;
     }
 }
