@@ -43,13 +43,16 @@
             <li>Measuring to ensure updates are a success</li>
             <li>And much more!</li>
           </ul>
-          <form action="">
+          <form action="" novalidate>
             <label for="emailID">Email address</label>
+            <span class="error" aria-live="polite"></span>
             <input
               type="email"
               name="email"
               id="emailID"
-              placeholder="email@company.com "
+              placeholder="email@company.com"
+              minlength="8"
+              required
             />
             <button class="subscribe">Subscribe to monthly newsletter</button>
           </form>
