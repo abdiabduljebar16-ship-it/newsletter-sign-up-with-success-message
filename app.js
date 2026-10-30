@@ -30,6 +30,7 @@ form.addEventListener("submit" , (event)=>{
     section.classList.add("hidden");
     article.classList.add("visible");
     article.classList.remove("hidden");
+    email.value = "";
     }
 });
 
