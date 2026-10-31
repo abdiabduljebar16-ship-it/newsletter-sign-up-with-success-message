@@ -69,10 +69,14 @@ article {
     display: none;
 }
 .error {
-    padding: 0.3rem;
+    margin: 0.2rem 1rem 1rem 1rem;
     color: red;
 }
-input.invalid {
+input:valid {
+    color: black;
+}
+input:not(:placeholder-shown):invalid {
+  color: #990000;
   border: 2px solid #990000;
   background-color: #ffdddd;
 }

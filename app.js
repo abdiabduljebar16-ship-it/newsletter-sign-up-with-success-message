@@ -15,7 +15,6 @@ disButton.addEventListener("click", (event)=> {
 email.addEventListener("input", ()=>{
     if(email.validity.valid){
         emailError.textContent = "";
-        email.className = "error";
     } else {
         showError();
     }
@@ -42,5 +41,4 @@ function showError(){
     } else if ( email.validity.tooShort) {
         emailError.textContent = ` Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
     }
-    email.className = "error active";
 }
